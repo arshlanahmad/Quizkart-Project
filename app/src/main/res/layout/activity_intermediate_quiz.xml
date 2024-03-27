@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".IntermediateQuiz">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/score_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:fontFamily="@font/amaranth"
+            android:text="@string/score"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/Score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="2dp"
+            android:fontFamily="@font/amaranth"
+            android:text="@string/_0"
+            android:textSize="40sp"
+            tools:ignore="RelativeOverlap" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/amaranth"
+        android:padding="8dp"
+        android:text="@string/what_is_computer"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/choice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/corner3"
+        android:fontFamily="@font/inder"
+        android:padding="8dp"
+        android:text="@string/bird"
+        android:textColor="#000"
+        android:textSize="25sp"
+        app:backgroundTint="#80CCF4" />
+
+    <Button
+        android:id="@+id/choice2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/inder"
+        android:padding="8dp"
+        android:text="@string/bird"
+        android:textColor="#000"
+        android:textSize="25sp"
+        app:backgroundTint="#80CCF4"
+        android:background="@drawable/corner3" />
+    <Button
+        android:id="@+id/choice3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inder"
+        android:padding="8dp"
+        android:text="@string/bird"
+        android:textColor="#000"
+        android:textSize="25sp"
+        app:backgroundTint="#80CCF4"
+        android:background="@drawable/corner3" />
+    <TextView
+        android:id="@+id/mrw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/inder"
+        android:padding="8dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#C6514F4F"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/choose_bro"
+        android:contentDescription="@string/todo" />
+
+</LinearLayout>

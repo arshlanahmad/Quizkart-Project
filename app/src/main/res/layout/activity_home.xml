@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_home">
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/reading_glasses_bro"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/monitor_bro"
+        android:contentDescription="@string/todo" />
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ExtraText">
+
+        <Button
+            android:id="@+id/aboutcomputer"
+            android:gravity="center"
+            android:foregroundGravity="center"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/inder"
+            android:text="@string/about_computer"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:backgroundTint="#9CE2F9"
+            android:background="@drawable/corner3"
+            app:iconTint="#000000"
+           />
+
+
+    <Button
+        android:id="@+id/flashdrive"
+        android:gravity="center"
+        android:foregroundGravity="center"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/corner3"
+        android:fontFamily="@font/inder"
+        android:text="@string/drived"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="#9CE2F9"
+        app:iconTint="#000000"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/data"
+        android:gravity="center"
+        android:foregroundGravity="center"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/corner3"
+        android:fontFamily="@font/inder"
+        android:text="@string/bit_byte_nibble"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="#9CE2F9"
+        app:iconTint="#000000"
+        android:layout_marginTop="8dp"/>
+        />
+
+    <Button
+        android:id="@+id/fullform"
+        android:gravity="center"
+        android:foregroundGravity="center"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/corner3"
+        android:fontFamily="@font/inder"
+        android:text="@string/full_forms"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="#9CE2F9"
+        app:iconTint="#000000"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/hardwaresoftware"
+        android:gravity="center"
+        android:foregroundGravity="center"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/corner3"
+        android:fontFamily="@font/inder"
+        android:text="@string/hardware_software"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="#9CE2F9"
+        android:layout_marginTop="8dp"/>
+
+
+    <Button
+        android:id="@+id/computerparts"
+        android:gravity="center"
+        android:foregroundGravity="center"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/corner3"
+        android:fontFamily="@font/inder"
+        android:text="@string/cpu_monitor"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="#9CE2F9"
+        app:iconTint="#000000"
+        android:layout_marginTop="8dp"/>
+        <Button
+            android:id="@+id/shortnotes"
+            android:gravity="center"
+            android:foregroundGravity="center"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/corner3"
+            android:fontFamily="@font/inder"
+            android:text="@string/keyboard_mouse"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:backgroundTint="#9CE2F9"
+            app:iconTint="#000000"
+            android:layout_marginTop="8dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

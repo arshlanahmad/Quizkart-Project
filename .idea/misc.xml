@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/HTML Notes/Quizkart/app/src/main/res/layout/activity_main.xml" value="0.5025" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1315" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/drawable/corner2.xml" value="0.1315" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1315" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-anydpi/activity_aboutcomputer.xml" value="0.12" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-anydpi/activity_home.xml" value="0.15" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-anydpi/activity_learn_quiz.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-anydpi/activity_quizpage.xml" value="0.11" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-hdpi/activity_aboutcomputer.xml" value="0.15069444444444444" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-hdpi/activity_home.xml" value="0.2828125" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-hdpi/activity_learn_quiz.xml" value="0.22" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-hdpi/activity_quizpage.xml" value="0.5" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-ldpi/activity_aboutcomputer.xml" value="0.4688995215311005" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-mdpi/activity_aboutcomputer.xml" value="0.15" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-mdpi/activity_learn_quiz.xml" value="0.5" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-xhdpi/activity_aboutcompter.xml" value="0.14" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-xhdpi/activity_aboutcomputer.xml" value="0.14127604166666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-xhdpi/activity_home.xml" value="0.33" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-xhdpi/activity_learn_quiz.xml" value="0.16" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-xhdpi/activity_quizpage.xml" value="0.33" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-xxhdpi/activity_aboutcomputer.xml" value="0.14" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-xxhdpi/activity_home.xml" value="0.29923664122137406" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-xxhdpi/activity_learn_quiz.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-xxhdpi/activity_quizpage.xml" value="0.18" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-xxxhdpi/activity_aboutcomputer.xml" value="0.13110367892976588" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-xxxhdpi/activity_home.xml" value="0.14" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-xxxhdpi/activity_learn_quiz.xml" value="0.2984375" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout-xxxhdpi/activity_quizpage.xml" value="0.11" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout/activity_aboutcomputer.xml" value="0.25" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout/activity_advance_quiz.xml" value="0.33" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout/activity_advance_result.xml" value="0.33" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout/activity_beginner_quiz.xml" value="0.18" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout/activity_beginner_result.xml" value="0.33" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout/activity_computerparts.xml" value="0.1675213675213675" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout/activity_data.xml" value="0.22" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout/activity_flashdrive.xml" value="0.1696969696969697" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout/activity_fullforms.xml" value="0.5" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout/activity_hardwaresoftware.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout/activity_home.xml" value="0.5" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout/activity_intermediate_quiz.xml" value="0.5" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout/activity_intermediate_result.xml" value="0.33" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout/activity_learn_quiz.xml" value="0.33" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout/activity_quizpage.xml" value="0.33" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/layout/activity_shortnotes.xml" value="0.5" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1315" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/Quizkart/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1315" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

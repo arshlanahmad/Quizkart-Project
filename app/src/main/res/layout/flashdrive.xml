@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toTopOf="@+id/scrollview333"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/book_plane"
+        android:contentDescription="@string/todo" />
+
+    <ScrollView
+        android:id="@+id/scrollview333"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="155dp"
+        android:fillViewport="true"
+        android:forceHasOverlappingRendering="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:targetApi="n">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/inder"
+                android:paddingStart="10sp"
+                android:paddingEnd="8sp"
+                android:text="@string/drive_n_na_drive_is_a_location_medium_that_is_capable_of_storing_and_reading_information_that_is_not_easily_removed_like_a_disk_or_disc_all_drives_store_files_and_programs_used_by_your_computer_for_example_when_you_write_a_letter_in_a_word_processor_the_program_is_loaded_from_the_hard_drive_when_you_save_the_document_it_s_saved_to_the_hard_drive_or_other_disk_or_drive_n_ncompact_disc_cd_a_compact_disc_is_a_portable_storage_medium_that_can_be_used_to_record_store_and_play_back_audio_video_and_other_n_npen_drive_a_usb_flash_drive_also_known_as_a_usb_stick_usb_thumb_drive_or_pen_drive_is_a_plug_and_play_portable_storage_device_that_uses_flash_memory_and_is_lightweight_enough_to_attach_to_a_keychain_a_usb_flash_drive_can_be_used_in_place_of_a_compact_disc_a_usb_flash_drive_also_known_as_a_usb_stick_usb_thumb_drive_or_pen_drive_is_a_plug_and_play_portable_storage_device_that_uses_flash_memory_and_is_lightweight_enough_to_attach_to_a_keychain_a_usb_flash_drive_can_be_used_in_place_of_a_compact_disc_n_nsd_card_a_secure_digital_sd_card_is_a_tiny_flash_memory_card_designed_for_high_capacity_memory_and_various_portable_devices_such_as_car_navigation_systems_cellular_phones_e_books_pdas_smartphones_digital_cameras_music_players_digital_video_camcorders_and_personal_computers_n_n_hd_hard_drive_hd_is_an_initialism_used_for_hard_drive_although_you_may_also_see_it_written_as_hdd_for_hard_disk_drive_2_short_for_high_definition_hd_describes_a_standard_of_digital_video_or_audio_for_video_it_means_1280_x_720_pixels_or_720p_on_televisions_n_ndigital_versatile_drive_short_for_digital_versatile_disc_or_digital_video_disc_a_dvd_or_dvd_rom_is_a_disc_capable_of_storing_a_significant_amount_more_data_than_a_standard_compact_disc_dvd_dvds_are_widely_used_for_storing_and_viewing_movies_and_other_data_n_ndvd_digital_video_disc_dvd_digital_video_disc_is_a_technology_based_on_optical_data_storage_similar_to_compact_disc_cd_optical_data_storage_is_a_method_of_storing_digital_information_1_s_and_0_s_by_using_light_to_read_the_information_n_n_n_n_n_n_n_n"
+                android:textSize="28sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

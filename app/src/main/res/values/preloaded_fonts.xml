@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+<!--        <item>@font/</item>-->
+        <item>@font/aclonica</item>
+        <item>@font/acme</item>
+        <item>@font/alegreya_sans_medium</item>
+        <item>@font/almendra_display</item>
+        <item>@font/amaranth</item>
+        <item>@font/baumans</item>
+        <item>@font/cairo</item>
+        <item>@font/inder</item>
+    </array>
+</resources>

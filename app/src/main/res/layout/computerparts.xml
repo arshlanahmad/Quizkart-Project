@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toTopOf="@+id/scrollview4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/learn_horizontal"
+        android:contentDescription="@string/todo" />
+
+    <ScrollView
+        android:id="@+id/scrollview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="155dp"
+        android:fillViewport="true"
+        android:forceHasOverlappingRendering="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:targetApi="n">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/inder"
+                android:paddingLeft="8sp"
+                android:paddingRight="8sp"
+                android:text="@string/cpu_monitor_n_ncentral_processing_unit_cpu_n_n_the_cpu_or_central_processing_unit_is_basically_like_the_brain_of_computer_systems_it_processes_all_the_information_on_a_computational_level_central_processing_unit_cpu_the_cpu_or_central_processing_unit_is_basically_like_the_brain_of_computer_systems_it_processes_all_the_information_on_a_computational_level_it_takes_all_the_processes_from_the_ram_and_processes_it_to_perform_the_tasks_required_by_the_computer_system_the_central_processing_unit_is_usually_seated_in_a_socket_that_utilizes_a_lever_or_a_latch_with_a_hinged_plate_with_a_cut_out_in_the_center_to_secure_the_central_processing_unit_onto_the_motherboard_it_has_many_copper_pads_underneath_it_for_the_socket_contacts_to_push_up_against_them_to_make_electrical_contact_there_are_other_ways_cpus_can_be_attached_to_the_motherboard_n_nmonitor_or_visual_display_unit_vdu_n_n_a_monitor_is_an_output_device_used_to_visualize_the_graphics_data_sent_from_the_computer_s_gpu_there_are_various_types_of_monitors_on_the_market_a_led_light_emitting_diode_backlit_lcd_liquid_crystal_display_monitor_is_the_most_commonly_used_with_modern_computers_there_are_also_various_computer_screen_sizes_with_different_aspect_ratios_the_aspect_ratio_is_simply_the_ratio_between_height_and_width_for_example_a_16_9_aspect_ratio_computer_screen_will_have_16_parts_wide_to_9_parts_in_height_there_are_also_curved_monitors_but_they_are_more_expensive_computer_screens_monitors_also_have_a_fast_response_time_to_keep_up_with_the_high_demands_required_to_eliminate_delays_with_user_input_for_gaming_n_n_n_n_n_n_n_n_n_n"
+                android:textSize="28sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
